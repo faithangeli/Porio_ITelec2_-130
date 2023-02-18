@@ -8,16 +8,14 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-
-
-public class MainActivity extends AppCompatActivity {
+public class ThirdActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_third);
 
 
         Log.i(TAG, "This is a verbose log.");
@@ -34,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.i(TAG, "Button Clicked");
                 Intent intent = new Intent();
+
             }
-        }
-    }
 }
