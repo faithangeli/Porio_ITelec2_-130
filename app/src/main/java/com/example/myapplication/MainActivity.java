@@ -10,12 +10,14 @@ import android.widget.Button;
 
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+{
 
     private static final String TAG = "MainActivity";
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -30,11 +32,13 @@ public class MainActivity extends AppCompatActivity {
 
         button.setOnClickListener(new View.OnClickListener() {
 
-            @Override
-            public void onClick(View v) {
-                Log.i(TAG, "Button Clicked");
-                Intent intent = new Intent();
-            }
-        }
+           @Override
+           public void onClick(View v) {
+               Log.i(TAG, "Button Clicked");
+            Intent intent = new Intent(MainActivity.this, ThirdActivity.class);
+            startActivity(intent);
+           }
+
+        });
     }
 }

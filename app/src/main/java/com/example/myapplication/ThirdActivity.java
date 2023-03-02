@@ -34,4 +34,6 @@ public class ThirdActivity extends AppCompatActivity {
                 Intent intent = new Intent();
 
             }
+        });
+    }
 }
