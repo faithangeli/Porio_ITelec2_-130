@@ -36,6 +36,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
+        android:text="VCXVX"
         android:textSize="16sp"
         tools:layout_editor_absoluteX="169dp"
         tools:layout_editor_absoluteY="66dp" />
