@@ -27,8 +27,12 @@
         android:text="SEARCH"
         android:textSize="16sp"
         app:icon="@android:drawable/ic_menu_search"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="51dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
 
     <EditText
         android:id="@+id/editTextTextPersonName6"
@@ -38,8 +42,12 @@
         android:inputType="textPersonName"
         android:text="VCXVX"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="66dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.767"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -47,8 +55,12 @@
         android:layout_height="47dp"
         android:text="Dogs"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="166dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232" />
 
     <CheckBox
         android:id="@+id/checkBox4"
@@ -56,8 +68,12 @@
         android:layout_height="47dp"
         android:text="Cats"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="224dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.174"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327" />
 
     <TextView
         android:id="@+id/textView"
@@ -65,8 +81,12 @@
         android:layout_height="36dp"
         android:text="Toggles"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="342dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484" />
 
     <ToggleButton
         android:id="@+id/toggleButton"
@@ -75,23 +95,35 @@
         android:text="ToggleButton"
         android:textOff="ON"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="337dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.397"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486" />
 
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="158dp"
         android:layout_height="31dp"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="390dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557" />
 
     <Switch
         android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="220dp"
-        tools:layout_editor_absoluteY="342dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.616"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49" />
 
     <RadioButton
         android:id="@+id/radioButton"
@@ -99,8 +131,12 @@
         android:layout_height="47dp"
         android:text="Ninjas"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="224dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.569"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327" />
 
     <TextView
         android:id="@+id/textView2"
@@ -108,15 +144,22 @@
         android:layout_height="37dp"
         android:text="Hello Android"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="6dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
 
     <SeekBar
         android:id="@+id/seekBar"
         android:layout_width="354dp"
         android:layout_height="27dp"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="439dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615" />
 
     <RadioButton
         android:id="@+id/radioButton2"
@@ -124,6 +167,10 @@
         android:layout_height="wrap_content"
         android:text="Pirates"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="166dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.231" />
 </androidx.constraintlayout.widget.ConstraintLayout>
