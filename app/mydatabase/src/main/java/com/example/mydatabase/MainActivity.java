@@ -1,7 +1,5 @@
 package com.example.mydatabase;
 
-
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
